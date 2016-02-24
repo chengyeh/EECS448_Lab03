@@ -1,0 +1,46 @@
+body 
+{
+    background-image: url(img/gameOfThrones.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1, h2
+{
+	color: #333333;
+}
+
+h1.header
+{
+	font-size: 25pt;
+}
+
+section 
+{
+	background-color: #fff2cc;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+p
+{
+    font-family: Courier New;
+    font-size: 12pt;
+}
+
+a:hover
+{
+    background-color: yellow;
+    color: red;
+}
+
+footer 
+{
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px; 
+}
