@@ -1,9 +1,12 @@
 body 
 {
     background-image: url(img/gameOfThrones.jpg);
-    background-size: 100%;
-    background-repeat: repeat;
-    background-attachment: fixed;
+    -moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
 }
 
 h1, h2
